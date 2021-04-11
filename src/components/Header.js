@@ -1,5 +1,5 @@
-import React, { Component, useState } from 'react';
-import { Nav, NavItem, Dropdown, DropdownItem, DropdownToggle, DropdownMenu, NavLink } from 'reactstrap';
+import React, { useState } from 'react';
+import { Nav, NavItem, Dropdown, DropdownItem, DropdownToggle, DropdownMenu, NavLink, Button, Container } from 'reactstrap';
 
 function Header() {
 
@@ -9,7 +9,6 @@ function Header() {
 
     return (
         <React.Fragment>
-
             <Nav className="bg-dark mb-5">
                 <NavItem >
                     <NavLink className="text-light" href="#" active>Trang chủ</NavLink>
@@ -36,7 +35,10 @@ function Header() {
                     <NavLink className="text-light" disabled href="#">Disabled Link</NavLink>
                 </NavItem>
             </Nav>
+
         </React.Fragment>
+        
+
 
     );
 }
