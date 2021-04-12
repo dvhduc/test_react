@@ -1,14 +1,16 @@
 import React from 'react';
-import { Button, Col, Container, Row } from 'reactstrap';
+import { Button,} from 'reactstrap';
 
 function Footer() {
     function onClick() {
         alert('Test')
     }
     return (
-        <div>
+        <React.Fragment>
             <Button outline color="primary" onClick={onClick}>Click me!!</Button>{' '}
-        </div>
+        </React.Fragment>
+            
+        
     )
 }
 export default Footer;

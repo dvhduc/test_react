@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Nav, NavItem, Dropdown, DropdownItem, DropdownToggle, DropdownMenu, NavLink, Button, Container } from 'reactstrap';
+import { Nav, NavItem, Dropdown, DropdownItem, DropdownToggle, DropdownMenu, NavLink} from 'reactstrap';
 
 function Header() {
 
@@ -26,13 +26,13 @@ function Header() {
                     </DropdownMenu>
                 </Dropdown>
                 <NavItem>
-                    <NavLink className="text-light" href="#">Danh mục sản phẩm</NavLink>
+                    <NavLink className="text-light" >Danh mục sản phẩm</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink className="text-light" href="#">Another Link</NavLink>
+                    <NavLink className="text-light" >Another Link</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink className="text-light" disabled href="#">Disabled Link</NavLink>
+                    <NavLink className="text-light" disabled >Disabled Link</NavLink>
                 </NavItem>
             </Nav>
 

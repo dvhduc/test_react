@@ -16,6 +16,7 @@ function Product(props) {
                 <Button outline color="info" onClick= {onAddToCart}>Mua hàng</Button>
             </CardBody>
         </Card>
+        
     );
 
 }
